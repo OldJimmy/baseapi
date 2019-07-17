@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class BaseapiController {
 
 	@RequestMapping("/second")
-	public Integer getSecont()
+	public Integer getSecond()
 	{
 		return LocalDateTime.now().getSecond();
 	}
